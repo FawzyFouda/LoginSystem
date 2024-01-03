@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sign up</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-form-title" style="background-image: url(images/bg-01.jpg);">
+					<span class="login100-form-title-1">
+						Sign up
+					</span>
+				</div>
+				<div class="login100-form validate-form">
+					<div class="wrap-input100 validate-input m-b-26">
+						<span class="label-input100">User name</span>
+						<input id="signupName" class="input100" placeholder="Enter your email" type="text">
+						<span class="focus-input100"></span>
+					</div>
+					<div class="wrap-input100 validate-input m-b-26" >
+						<span class="label-input100">User email</span>
+						<input id="signupEmail" class="input100" placeholder="Enter your email" type="email">
+						<span class="focus-input100"></span>
+					</div>
+					<div class="wrap-input100 validate-input m-b-18" id="passContainer">
+						<span class="label-input100">Password</span>
+						<input id="signupPassword" class="input100" placeholder="Enter your password" type="password">
+                        <ul id="pass-icon"><li><i class="fa-solid fa-eye-slash"></i></li></ul>
+						<span class="focus-input100"></span>
+					</div>
+                    <div class="text-center">
+						<p id="exist"></p>
+					</div>
+                    
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn" onclick="signUp()">
+							Sign up
+						</button>
+                        <div>
+							<a href="./login.html">Or login</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://kit.fontawesome.com/0313e0792e.js" crossorigin="anonymous"></script>
+	<script src="js/mainScript.js"></script>
+	<script src="js/signup.js"></script>
+</body>
+</html>

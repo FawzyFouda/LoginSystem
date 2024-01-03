@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sign in</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-form-title" style="background-image: url(images/bg-01.jpg);">
+					<span class="login100-form-title-1">
+						Sign In
+					</span>
+				</div>
+				<div class="login100-form validate-form">
+					<div class="wrap-input100 validate-input m-b-26">
+						<span class="label-input100">User email</span>
+						<input id="signinEmail" class="input100" placeholder="Enter your email" type="text">
+						<span class="focus-input100"></span>
+					</div>
+					<div class="wrap-input100 validate-input m-b-18">
+						<span class="label-input100">Password</span>
+						<input id="signinPassword" class="input100" placeholder="Enter your password" type="password">
+						<ul id="pass-icon-signin"><li><i class="fa-solid fa-eye-slash"></i></li></ul>
+						<span class="focus-input100"></span>
+					</div>
+					<div class="text-center">
+						<p id="incorrect"></p>
+					</div>
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn" onclick="login()">
+							Login
+						</button>
+						<div>
+							<a href="./signup.html">Or SignUp</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://kit.fontawesome.com/0313e0792e.js" crossorigin="anonymous"></script>
+	<script src="js/mainScript.js"></script>
+	<script src="js/login.js"></script>
+</body>
+</html>
